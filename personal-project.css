@@ -1,0 +1,94 @@
+.angled-gradient{
+	background: linear-gradient(140deg, #ee96ff, #80d8fc);
+	background-attachment:fixed;
+}
+.logo{
+	
+	height: 100px;
+
+}
+
+/* div{
+	border: 1px solid black;
+	
+}
+*/
+
+.bottom{
+	background-color:black;
+	color: white;
+}
+.col-10{
+	text-align:center;
+
+}
+.home{
+	vertical-align:middle;
+}
+
+#btnA{
+	width: 20%;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+}
+#btnB{
+	width: 20%;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+}
+#btnC{
+	width: 20%;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+}
+#btnD{
+	width: 20%;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+}
+#btnE{
+	width: 20%;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+}
+#btnF{
+	width: 20%;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+}
+#btnG{
+	width: 20%;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+}
+#btnH{
+	width: 20%;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+}
+
+#btnH:hover, #btnG:hover,#btnF:hover, #btnE:hover, #btnD:hover, #btnC:hover, #btnB:hover, #btnA:hover {
+	width: 20%;
+	height:150px;
+	background-color: #d491c3;
+	color:white;
+}
+
+button:hover{
+	background-color: orange;
+}
+
+h1{
+	font-family: 'Press Start 2P', cursive;
+}
+h4{
+    font-family: 'Press Start 2P', cursive;
+}
