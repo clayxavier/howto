@@ -45,48 +45,56 @@ button:active {
 	height:150px;
 	background-color: #5e4fd1;
 	color:white;
+	display:inline-block;
 }
 #btnB{
 	width: 20%;
 	height:150px;
 	background-color: #5e4fd1;
 	color:white;
+	display:inline-block;
 }
 #btnC{
 	width: 20%;
 	height:150px;
 	background-color: #5e4fd1;
 	color:white;
+	display:inline-block;
 }
 #btnD{
 	width: 20%;
 	height:150px;
 	background-color: #5e4fd1;
 	color:white;
+	display:inline-block;
 }
 #btnE{
 	width: 20%;
 	height:150px;
 	background-color: #ff91ca;
 	color:white;
+	display:inline-block;
 }
 #btnF{
 	width: 20%;
 	height:150px;
 	background-color: #ff91ca;
 	color:white;
+	display:inline-block;
 }
 #btnG{
 	width: 20%;
 	height:150px;
 	background-color: #ff91ca;
 	color:white;
+	display:inline-block;
 }
 #btnH{
 	width: 20%;
 	height:150px;
 	background-color: #ff91ca;
 	color:white;
+	display:inline-block;
 }
 
 #btnH:hover, #btnG:hover,#btnF:hover, #btnE:hover{
@@ -114,5 +122,79 @@ h4{
 }
 
 @media(max-width:750px){
+
+
+}
+@media(max-width:418px){
+	
+	#btnA{
+	width: 140px;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+	display:inline-block;
+}
+#btnB{
+	width: 140px;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+	display:inline-block;
+}
+#btnC{
+	width: 140px;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+	display:inline-block;
+}
+#btnD{
+	width: 140px;
+	height:150px;
+	background-color: #5e4fd1;
+	color:white;
+	display:inline-block;
+}
+#btnE{
+	width: 140px;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+	display:inline-block;
+}
+#btnF{
+	width: 140px;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+	display:inline-block;
+}
+#btnG{
+	width: 140px;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+	display:inline-block;
+}
+#btnH{
+	width: 140px;
+	height:150px;
+	background-color: #ff91ca;
+	color:white;
+	display:inline-block;
+}
+
+#btnH:hover, #btnG:hover,#btnF:hover, #btnE:hover{
+	width: 140px;
+	height:150px;
+	background-color: #d491c3;
+	color:white;
+}
+ #btnD:hover, #btnC:hover, #btnB:hover, #btnA:hover{
+	width: 140px;
+	height:150px;
+	background-color: #6358B0;
+	color:white;
+}
 
 }
