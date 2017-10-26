@@ -5,7 +5,7 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 	<link rel="stylesheet" href="personal-project.css">
 	<link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
-
+	<script type="text/javascript" src="personal-project.js"></script>
 	</head>
 	<body class="angled-gradient">
 		<div class="container-fluid text-light">
@@ -44,15 +44,15 @@
 						<h4> Play with these sounds! </h4>
 
 					<div class="bg-dark py-3">
-						<button id="btnA" class="btn btn-lg m-2">1</button>
-						<button id="btnB" class="btn btn-lg m-2">2</button>
-						<button id="btnC" class="btn btn-lg m-2">3</button>
-						<button id="btnD" class="btn btn-lg m-2">4</button>
+						<button id="btnA" class="btn btn-lg m-2" onclick="play('snare-1')" accesskey="q">1</button>
+						<button id="btnB" class="btn btn-lg m-2" onclick="play('snare-2')">2</button>
+						<button id="btnC" class="btn btn-lg m-2" onclick="play('sfx')">3</button>
+						<button id="btnD" class="btn btn-lg m-2" onclick="play('ayy')">4</button>
 						<br/>
-						<button id="btnE" class="btn btn-lg m-2">5</button>
-						<button id="btnF" class="btn btn-lg m-2">6</button>
-						<button id="btnG" class="btn btn-lg m-2">7</button>
-						<button id="btnH" class="btn btn-lg m-2">8</button>
+						<button id="btnE" class="btn btn-lg m-2" onclick="play('kick-1')">5</button>
+						<button id="btnF" class="btn btn-lg m-2" onclick="play('kick-2')">6</button>
+						<button id="btnG" class="btn btn-lg m-2" onclick="play('hihat')">7</button>
+						<button id="btnH" class="btn btn-lg m-2" onclick="play('open-hihat')">8</button>
 					</div>
 				</div>
 				<div class="col-md-2 col-12"></div>
@@ -80,6 +80,14 @@
 					<a href="" class="text-light" >Some Other Link</a>
 				</div>
 			</div>
+			<audio src="KICK-1.wav" id="kick-1"></audio>
+			<audio src="KICK-2.wav" id="kick-2"></audio>
+			<audio src="SNARE-1.wav" id="snare-1"></audio>
+			<audio src="SNARE-2.wav" id="snare-2"></audio>
+			<audio src="HI-HAT.wav" id="hihat"></audio>
+			<audio src="OPEN HI-HAT.wav" id="open-hihat"></audio>
+			<audio src="AYY.wav" id="ayy"></audio>
+			<audio src="SFX.wav" id="sfx"></audio>
 
 
 		</div>
