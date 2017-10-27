@@ -31,7 +31,14 @@ function handleComplete(event) {
 }
 
 function handleFileLoad(event){
-
+	document.getElementById("btnA").disabled=false;
+	document.getElementById("btnB").disabled=false;
+	document.getElementById("btnC").disabled=false;
+	document.getElementById("btnD").disabled=false;
+	document.getElementById("btnE").disabled=false;
+	document.getElementById("btnF").disabled=false;
+	document.getElementById("btnG").disabled=false;
+	document.getElementById("btnH").disabled=false;
 }
 
 load();
