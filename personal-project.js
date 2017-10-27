@@ -52,14 +52,14 @@ document.getElementById("btnF").addEventListener("click", function(){ playSound(
 document.getElementById("btnG").addEventListener("click", function(){ playSound("ayy")});
 document.getElementById("btnH").addEventListener("click", function(){ playSound("sfx")});
 
-document.getElementById("btnA").addEventListener("touch", function(){ playSound("snare-1")});
-document.getElementById("btnB").addEventListener("touch", function(){ playSound("snare-2")});
-document.getElementById("btnC").addEventListener("touch", function(){ playSound("kick-1")});
-document.getElementById("btnD").addEventListener("touch", function(){ playSound("kick-2")});
-document.getElementById("btnE").addEventListener("touch", function(){ playSound("hihat")});
-document.getElementById("btnF").addEventListener("touch", function(){ playSound("open-hihat")});
-document.getElementById("btnG").addEventListener("touch", function(){ playSound("ayy")});
-document.getElementById("btnH").addEventListener("touch", function(){ playSound("sfx")});
+document.getElementById("btnA").addEventListener("touchend", function(){ playSound("snare-1")});
+document.getElementById("btnB").addEventListener("touchend", function(){ playSound("snare-2")});
+document.getElementById("btnC").addEventListener("touchend", function(){ playSound("kick-1")});
+document.getElementById("btnD").addEventListener("touchend", function(){ playSound("kick-2")});
+document.getElementById("btnE").addEventListener("touchend", function(){ playSound("hihat")});
+document.getElementById("btnF").addEventListener("touchend", function(){ playSound("open-hihat")});
+document.getElementById("btnG").addEventListener("touchend", function(){ playSound("ayy")});
+document.getElementById("btnH").addEventListener("touchend", function(){ playSound("sfx")});
 
 
 document.body.onkeydown = function(event){
