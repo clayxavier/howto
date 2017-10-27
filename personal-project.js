@@ -63,7 +63,7 @@ document.getElementById("btnF").addEventListener("touchstart", function(){ playS
 document.getElementById("btnG").addEventListener("touchstart", function(){ playSound("ayy")});
 document.getElementById("btnH").addEventListener("touchstart", function(){ playSound("sfx")});
 
-if(e.type == "touchend") {
+if(e.type == "touchstart") {
         handled = true;
         handleIt();
 
