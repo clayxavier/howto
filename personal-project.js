@@ -61,6 +61,10 @@ document.getElementById("btnF").addEventListener("touchstart", function(){ playS
 document.getElementById("btnG").addEventListener("touchstart", function(){ playSound("ayy")});
 document.getElementById("btnH").addEventListener("touchstart", function(){ playSound("sfx")});
 
+if(event.handled === false) return
+        event.stopPropagation();
+        event.preventDefault();
+        event.handled = true;
 
 document.body.onkeydown = function(event){
 	if (event.key=='1') {
