@@ -43,8 +43,6 @@ function handleFileLoad(event){
 
 load();
 
-var handled = false;
-
 document.getElementById("btnA").addEventListener("click", function(){ playSound("snare-1")});
 document.getElementById("btnB").addEventListener("click", function(){ playSound("snare-2")});
 document.getElementById("btnC").addEventListener("click", function(){ playSound("kick-1")});
@@ -63,9 +61,6 @@ document.getElementById("btnF").addEventListener("touchstart", function(){ playS
 document.getElementById("btnG").addEventListener("touchstart", function(){ playSound("ayy")});
 document.getElementById("btnH").addEventListener("touchstart", function(){ playSound("sfx")});
 
-if(e.type == "touchend") {
-        handled = true;
-        handleIt();
 
 document.body.onkeydown = function(event){
 	if (event.key=='1') {
