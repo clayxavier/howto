@@ -97,7 +97,7 @@ button:active {
 	display:inline-block;
 }
 
-#btnH:hover, #btnG:hover,#btnF:hover, #btnE:hover{
+/*#btnH:hover, #btnG:hover,#btnF:hover, #btnE:hover{
 	width: 20%;
 	height:150px;
 	background-color: #d491c3;
@@ -109,7 +109,7 @@ button:active {
 	background-color: #6358B0;
 	color:white;
 }
-
+*/
 
 h1{
 	font-family: 'Press Start 2P', cursive;
