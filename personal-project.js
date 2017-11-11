@@ -63,11 +63,6 @@ document.getElementById("btnH").addEventListener("touchstart", function(){ playS
 
 
 
-var down = false;
-document.addEventListener("keydown", function(){
-	if(down) return;
-	down = true;
-
 
 document.body.onkeydown = function(event){
 	if (event.key=='1') {
@@ -96,12 +91,7 @@ document.body.onkeydown = function(event){
 		playSound("sfx");
 	}
 }
-}, false);
 
-document.addEventListener("keyup", function(){
-	down = false;
-	
-}, false);
 
 function playSound(id) {
 	createjs.Sound.play(id);
