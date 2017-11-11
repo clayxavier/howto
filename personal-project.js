@@ -62,9 +62,16 @@ document.getElementById("btnG").addEventListener("touchstart", function(){ playS
 document.getElementById("btnH").addEventListener("touchstart", function(){ playSound("sfx")});
 
 
+
+var down = false;
+document.addEventListener("keydown", function(){
+	if(down) return;
+	down = true;
+
+
 document.body.onkeydown = function(event){
 	if (event.key=='1') {
-		playSound("snare-1");
+		playSound("snare-1")
 	}
 	if(event.key=='2'){
 		playSound("snare-2");
@@ -89,6 +96,12 @@ document.body.onkeydown = function(event){
 		playSound("sfx");
 	}
 }
+}, false);
+
+document.addEventListener("keyup", function(){
+	down = false;
+	
+}, false);
 
 function playSound(id) {
 	createjs.Sound.play(id);
