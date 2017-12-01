@@ -15,14 +15,14 @@ function load() {
             queue.addEventListener("fileload", handleFileLoad);
             queue.addEventListener("complete", handleComplete);
             queue.loadManifest([
-                {id:"kick", src:"assets/Kick.wav"},
-	    		{id:"snare", src:"assets/Snare.wav"},
-	    		{id:"hat", src:"assets/Hat.wav"},
-	    		{id:"open-hat", src:"assets/Open-Hat.wav"},
-	    		{id:"loop-1", src:"assets/Loop-1.wav"},
-	    		{id:"loop-2", src:"assets/Loop-2.wav"},
-	    		{id:"ayy", src:"assets/AYY.wav"},
-	    		{id:"sfx", src:"assets/SFX.wav"}
+                {id:"kick", src:"assets/Kick.mp3"},
+	    		{id:"snare", src:"assets/Snare.mp3"},
+	    		{id:"hat", src:"assets/Hat.mp3"},
+	    		{id:"open-hat", src:"assets/Open-Hat.mp3"},
+	    		{id:"loop-1", src:"assets/Loop-1.mp3"},
+	    		{id:"loop-2", src:"assets/Loop-2.mp3"},
+	    		{id:"ayy", src:"assets/AYY.mp3"},
+	    		{id:"sfx", src:"assets/SFX.mp3"}
             ]);
 		}
 
