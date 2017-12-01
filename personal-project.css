@@ -31,7 +31,7 @@ button:active {
   transform: translateY(4px);
 }
 .bottom{
-	background-color:black;
+	background-color:#343A40;
 	color: white;
 }
 .col-10{
