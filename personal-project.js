@@ -15,12 +15,12 @@ function load() {
             queue.addEventListener("fileload", handleFileLoad);
             queue.addEventListener("complete", handleComplete);
             queue.loadManifest([
-                {id:"kick-1", src:"assets/KICK-1.wav"},
-	    		{id:"kick-2", src:"assets/KICK-2.wav"},
-	    		{id:"snare-1", src:"assets/SNARE-1.wav"},
-	    		{id:"snare-2", src:"assets/SNARE-2.wav"},
-	    		{id:"hihat", src:"assets/HI-HAT.wav"},
-	    		{id:"open-hihat", src:"assets/OPEN-HI-HAT.wav"},
+                {id:"kick", src:"assets/Kick.wav"},
+	    		{id:"snare", src:"assets/Snare.wav"},
+	    		{id:"hat", src:"assets/Hat.wav"},
+	    		{id:"open-hat", src:"assets/Open-Hat.wav"},
+	    		{id:"loop-1", src:"assets/Loop-1.wav"},
+	    		{id:"loop-2", src:"assets/Loop-2.wav"},
 	    		{id:"ayy", src:"assets/AYY.wav"},
 	    		{id:"sfx", src:"assets/SFX.wav"}
             ]);
@@ -43,21 +43,21 @@ function handleFileLoad(event){
 
 load();
 
-document.getElementById("btnA").addEventListener("mousedown", function(){ playSound("snare-1")});
-document.getElementById("btnB").addEventListener("mousedown", function(){ playSound("snare-2")});
-document.getElementById("btnC").addEventListener("mousedown", function(){ playSound("kick-1")});
-document.getElementById("btnD").addEventListener("mousedown", function(){ playSound("kick-2")});
-document.getElementById("btnE").addEventListener("mousedown", function(){ playSound("hihat")});
-document.getElementById("btnF").addEventListener("mousedown", function(){ playSound("open-hihat")});
+document.getElementById("btnA").addEventListener("mousedown", function(){ playSound("kick")});
+document.getElementById("btnB").addEventListener("mousedown", function(){ playSound("snare")});
+document.getElementById("btnC").addEventListener("mousedown", function(){ playSound("hat")});
+document.getElementById("btnD").addEventListener("mousedown", function(){ playSound("open-hat")});
+document.getElementById("btnE").addEventListener("mousedown", function(){ playSound("loop-1")});
+document.getElementById("btnF").addEventListener("mousedown", function(){ playSound("loop2")});
 document.getElementById("btnG").addEventListener("mousedown", function(){ playSound("ayy")});
 document.getElementById("btnH").addEventListener("mousedown", function(){ playSound("sfx")});
 
-document.getElementById("btnA").addEventListener("touchstart", function(){ playSound("snare-1")});
-document.getElementById("btnB").addEventListener("touchstart", function(){ playSound("snare-2")});
-document.getElementById("btnC").addEventListener("touchstart", function(){ playSound("kick-1")});
-document.getElementById("btnD").addEventListener("touchstart", function(){ playSound("kick-2")});
-document.getElementById("btnE").addEventListener("touchstart", function(){ playSound("hihat")});
-document.getElementById("btnF").addEventListener("touchstart", function(){ playSound("open-hihat")});
+document.getElementById("btnA").addEventListener("touchstart", function(){ playSound("kick")});
+document.getElementById("btnB").addEventListener("touchstart", function(){ playSound("snare")});
+document.getElementById("btnC").addEventListener("touchstart", function(){ playSound("hat")});
+document.getElementById("btnD").addEventListener("touchstart", function(){ playSound("open-hat")});
+document.getElementById("btnE").addEventListener("touchstart", function(){ playSound("loop-1")});
+document.getElementById("btnF").addEventListener("touchstart", function(){ playSound("loop-2")});
 document.getElementById("btnG").addEventListener("touchstart", function(){ playSound("ayy")});
 document.getElementById("btnH").addEventListener("touchstart", function(){ playSound("sfx")});
 
