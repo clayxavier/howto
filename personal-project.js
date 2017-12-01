@@ -66,23 +66,23 @@ document.getElementById("btnH").addEventListener("touchstart", function(){ playS
 
 document.body.onkeydown = function(event){
 	if (event.key=='1') {
-		playSound("snare-1")
+		playSound("kick")
 	}
 	if(event.key=='2'){
-		playSound("snare-2");
+		playSound("snare");
 
 	}
 	if(event.key=='3'){
-		playSound("kick-1");
+		playSound("hat");
 	}
 	if(event.key=='4'){
-		playSound("kick-2");
+		playSound("open-hat");
 	}
 	if(event.key=='5'){
-		playSound("hihat");
+		playSound("loop-1");
 	}
 	if(event.key=='6'){
-		playSound("open-hihat");
+		playSound("loop-2");
 	}
 	if(event.key=='7'){
 		playSound("ayy");
